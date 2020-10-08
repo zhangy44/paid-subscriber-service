@@ -1,1 +1,14 @@
-<p>sidenav works!</p>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="side" [(opened)]="sideNavOpen" 
+                 >
+      Sidenav content
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+        <app-gridsys></app-gridsys>
+        <!-- <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p> -->
+    </mat-sidenav-content>
+</mat-sidenav-container>
+  
+  
+  
